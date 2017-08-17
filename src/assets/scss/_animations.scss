@@ -1,0 +1,28 @@
+.btn-slide {
+  transition: 0.30s;
+
+  &:hover,
+  &:focus {
+    box-shadow: inset 7em 0 0 0 #fff;
+  }
+}
+
+.btn-slide-invert {
+  transition: 0.30s;
+
+  &:hover,
+  &:focus {
+    box-shadow: inset 8em 0 0 0 #705db5;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .nav-anim {
+    transition: 0.30s;
+
+    &:hover,
+    &:focus {
+      box-shadow: inset 0 -3.25em 0 0 #705db5;
+    }
+  }
+}
