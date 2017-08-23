@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development webpack-dev-server --hot --public hp-new.app:8080",
-    "build": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --progress --hide-modules"
+    "build": "node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production webpack --progress --hide-modules",
+    "start": "webpack-dev-server --inline --host 0.0.0.0"
   },
   "dependencies": {
     "vue": "^2.3.3"
