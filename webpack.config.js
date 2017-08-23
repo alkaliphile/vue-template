@@ -45,11 +45,11 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract("css-loader!sass-loader")
+        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract("css-loader")
+        loader: ExtractTextPlugin.extract('css-loader')
       },
     ]
   },
@@ -77,7 +77,7 @@ module.exports = {
           template: 'index.html',
           inject: 'body'
       }),
-      new ExtractTextPlugin("[name].css"),
+      new ExtractTextPlugin('name].css'),
   ]
 }
 
